@@ -5,6 +5,11 @@ body{
 }
 
 .encabezado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
   background: white;
   display: flex;
   justify-content: space-between;
@@ -12,6 +17,7 @@ body{
   list-style: none;
   padding: 5px 10%;
   border-bottom: ridge gray; 
+  margin-bottom: 10em;
 }
 
 .encabezado .links {
@@ -34,7 +40,7 @@ body{
   margin-right: 2em;
 }
 
-#titulo, .tit{
+.titulo, .tit{
   font-size: 2em;
   color: white;
   text-align: center;
@@ -42,16 +48,19 @@ body{
   font-weight: bold;
 }
 
-#contenedor_port1{
-  background-color: #FF821C;
-  border-radius: 20px;
-  padding: 2em 4em;
-}
-
-#port1_texto{
-  text-align: justify;
-}
-
 .col1{
   margin-right: 5em;
+}
+.texto_justif{
+  text-align: justify;
+  color: black;
+}
+
+.separacion{
+  margin-bottom: 5em;
+}
+
+.comp{
+  padding-top: 8.2em;
+  height: auto;
 }

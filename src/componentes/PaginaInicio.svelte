@@ -1,5 +1,4 @@
 <script>
-import {Image} from 'sveltestrap';
   import {
     Row,
     Col,
@@ -19,17 +18,17 @@ import {Image} from 'sveltestrap';
 </script>
 
 
-<Container>
+<Container class="comp" id="inicio">
   <Row>
     <Col class="col1">
       <Row >
-        <p id="titulo">
+        <p class="titulo">
           Caracterización de una función usando la derivada
         </p>
       </Row>
       <Row >
-        <Container id="contenedor_port1">
-          <p id="port1_texto">Esta página web está pensada para que aprendas el concepto de derivada y su utilidad para caracterizar funciones. El objetivo es que aprendas con el mínimo de teoría, de forma intuitiva e interactiva para que las matemáticas dejen de ser aburridas y complicadas. 
+        <Container id="contenedor_pagInicio">
+          <p class="texto_justif">Esta página web está pensada para que aprendas el concepto de derivada y su utilidad para caracterizar funciones. El objetivo es que aprendas con el mínimo de teoría, de forma intuitiva e interactiva para que las matemáticas dejen de ser aburridas y complicadas. 
           </p>
         </Container>
       </Row>
@@ -57,8 +56,11 @@ import {Image} from 'sveltestrap';
   
 </Container>
 
-<p id="párrafo_abajo" class="tit">Holaaa</p>
-
 <style>
-    @import "../../static/estilos.css";  
+  @import "../../static/estilos.css";  
+  :global(#contenedor_pagInicio){
+  background-color: #FF821C;
+  border-radius: 20px;
+  padding: 2em 4em;
+}
 </style>

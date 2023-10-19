@@ -18,13 +18,14 @@
   </NavItem>
   <NavItem class="links">
     <NavItem>
-      <NavLink href="#" class="nav-link">Inicio</NavLink>
+      <NavLink href="#inicio" class="nav-link">Inicio</NavLink>
     </NavItem>
     <NavItem>
-      <NavLink href="#párrafo_abajo" class="nav-link">Quienes somos</NavLink>
+      <!-- <Link to="/pagina-quienes-somos">Quienes somos</Link> -->
+      <NavLink href="#quienes_somos" class="nav-link">Quienes somos</NavLink>
     </NavItem>
     <NavItem>
-      <NavLink href="#" class="nav-link">Contáctanos</NavLink>
+      <NavLink href="#contactanos" class="nav-link">Contáctanos</NavLink>
     </NavItem>
     <NavItem>
       <NavLink href="/Aprende" color="success" class="nav-link">Aprende</NavLink>
