@@ -18,11 +18,11 @@
   </NavItem>
   <NavItem class="links">
     <NavItem>
-      <NavLink href="#inicio" class="nav-link">Inicio</NavLink>
+      <NavLink href="#general" class="nav-link">Inicio</NavLink>
     </NavItem>
     <NavItem>
       <!-- <Link to="/pagina-quienes-somos">Quienes somos</Link> -->
-      <NavLink href="#quienes_somos" class="nav-link">Quienes somos</NavLink>
+      <NavLink href="#quienesSomos" class="nav-link">Quienes somos</NavLink>
     </NavItem>
     <NavItem>
       <NavLink href="#contactanos" class="nav-link">Contáctanos</NavLink>
