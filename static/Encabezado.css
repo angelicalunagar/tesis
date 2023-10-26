@@ -1,0 +1,36 @@
+.encabezado {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 5px 10%;
+  border-bottom: ridge gray; 
+}
+
+.encabezado .links {
+  display: flex;
+  align-items: center;
+}
+
+.encabezado .links .nav-link:hover {
+  transform: scale(1.15);
+  text-decoration: underline;
+}
+
+.encabezado .logo {
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.logo_item {
+  margin-right: 2em;
+}
+
+

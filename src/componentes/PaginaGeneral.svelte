@@ -15,17 +15,16 @@
     'est_3.jpg'
   ];
   let activeIndex = 0;
-  const bgColor = "#FF821C";
   //Atributos agregados a la etiqueta que se está creando
   export let titulo ="";
   export let texto = "";
-  export let color_contenedorTexto ="red";
   export let id="";
+ 
 
 </script>
 
 
-<Container class="comp" id={id}>
+<Container class="contenedor" id={id}>
   <Row>
     <Col class="col1">
       <Row >
@@ -34,7 +33,7 @@
         </h2>
       </Row>
       <Row >
-          <p class="caja_texto">
+          <p class="caja-texto">
             {@html texto} 
           </p> 
       </Row>
@@ -62,18 +61,6 @@
   
 </Container>
 
-<style>  
-  .caja_texto{
-  text-align: justify;
-  color: black;
-  background-color: #FF821C;
-  border-radius: 20px;
-  padding: 2em 4em;
-}
-.tit{
-  color: white;
-  text-align: center;
-  padding: 2em;
-  font-weight: bold;
-}
+<style>
+    @import "../../static/PaginaGeneral.css";
 </style>

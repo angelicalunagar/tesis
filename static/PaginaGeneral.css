@@ -1,0 +1,24 @@
+
+.contenedor{
+    padding-top: 8.2em;
+    height: auto;
+    margin-bottom: 5.5em;
+}
+
+.col1{
+    margin-right: 5em;
+  }
+  
+  .caja-texto{
+    text-align: justify;
+    color: var(--color);
+    background-color: var(--bgcolor);
+    border-radius: 20px;
+    padding: 2em 4em;
+  }
+  .tit{
+    color: white;
+    text-align: center;
+    padding: 2em;
+    font-weight: bold;
+  }

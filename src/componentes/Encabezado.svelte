@@ -18,7 +18,7 @@
   </NavItem>
   <NavItem class="links">
     <NavItem>
-      <NavLink href="#general" class="nav-link">Inicio</NavLink>
+      <NavLink href="#inicio" class="nav-link">Inicio</NavLink>
     </NavItem>
     <NavItem>
       <!-- <Link to="/pagina-quienes-somos">Quienes somos</Link> -->
@@ -35,6 +35,6 @@
 
 
 <style>
-  @import "../../static/estilos.css";
+  @import "../../static/Encabezado.css";
   
 </style>
